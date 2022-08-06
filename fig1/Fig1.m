@@ -1,5 +1,5 @@
 %% Introduction
-%FIG2 runs the deterministic processes and draws figure 2.
+%FIG1 runs the deterministic processes and draws figure 1.
 
 %% Main
 clear,clc
