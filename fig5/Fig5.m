@@ -70,7 +70,7 @@ yline([0,1],'LineWidth',1.5,'Alpha',0.2)
 ylim([-0.1,1.1])
 grid on
 box on
-legend("hide")
+legend("Predictable","\nablaP > 1","\nablaP = 0","location","southeast")
 xlabel("Attributing parameter (\alpha)")
 ylabel("Probability")
 title("Real social network: r = 956")
