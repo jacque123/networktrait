@@ -74,7 +74,7 @@ P = plot(G2,'Layout','force','NodeLabel',{},'EdgeColor','#000000', ...
     'NodeColor','#77AC30','MarkerSize',7);
 box on
 highlight(P,find(TD2(:,2)==1),'NodeColor','#D95319')
-legend('Conformist', 'Rebel','Location','northeast')
+legend('Conformist', 'Anticonformist','Location','northeast')
 title("Social network and trait distribution")
 set(gca,'fontname','Palatino','fontsize',fs,'xtick',[],'ytick',[])
 
