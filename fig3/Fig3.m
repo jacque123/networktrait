@@ -35,7 +35,7 @@ ylim([-0.1,1.1])
 grid on
 box on
 legend('hide')
-xlabel("Number of rebels (r)")
+xlabel("Number of anticonformists (r)")
 ylabel("Probability")
 title("n = 100, \mu = 8, \eta = 0, \alpha = 0.8")
 set(gca,'fontname','Palatino','fontsize',fs)
@@ -108,7 +108,7 @@ ylim([-0.1,1.1])
 grid on
 box on
 legend('hide')
-xlabel("Number of rebels (r)")
+xlabel("Number of anticonformists (r)")
 ylabel("Probability")
 title("Toric lattice: m =10, \alpha = 0.8")
 set(gca,'fontname','Palatino','fontsize',fs)
@@ -183,7 +183,7 @@ ylim([-0.1,1.1])
 grid on
 box on
 legend('hide')
-xlabel("Number of rebels (r)")
+xlabel("Number of anticonformists (r)")
 ylabel("Probability")
 title("Regular networks: \eta = -80, \alpha = 0.8")
 set(gca,'fontname','Palatino','fontsize',fs)
@@ -258,7 +258,7 @@ ylim([-0.1,1.1])
 grid on
 box on
 legend('hide')
-xlabel("Number of rebels (r)")
+xlabel("Number of anticonformists (r)")
 ylabel("Probability")
 title("Star-like networks: \eta = 8, \alpha = 0.8")
 set(gca,'fontname','Palatino','fontsize',fs)
