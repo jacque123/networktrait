@@ -12,3 +12,4 @@ General functions used in the experiments are in the folder *functions*. Please 
 Code and data for generating each figure is contained in the corresponding folder.
 
 - The folder *fig1* contains the code and data that generate all panels of Figure 1. Please run **fig1.m**.
+- The folder *fig2* contains the code and data that generate all panels of Figure 2. Please run **fig2.m**.
