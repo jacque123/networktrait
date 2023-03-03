@@ -6,6 +6,9 @@ This repository includes code and data for experiments in the following paper.
 
 Pengyu Liu, Jie Jian, Effects of network topology and trait distribution on collective decision making, 2022.
 
-## Code and figures
+## Code and data
 
 General functions used in the experiments are in the folder *functions*. Please see more detail in each file in the folder.
+Code and data for generating each figure is contained in the corresponding folder.
+
+
