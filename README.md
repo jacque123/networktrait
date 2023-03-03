@@ -8,3 +8,4 @@ Pengyu Liu, Jie Jian, Effects of network topology and trait distribution on coll
 
 ## Code and figures
 
+General functions used in the experiments are in the folder "functions". Please see more detail in each file in the folder.
