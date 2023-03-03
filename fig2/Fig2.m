@@ -187,7 +187,8 @@ P = plot(G,'Layout','force','NodeLabel',{},'EdgeColor','#000000', ...
     'NodeColor','#77AC30','MarkerSize',7);
 box on;
 highlight(P,find(TD(:,2)==1),'NodeColor','#D95319')
-legend('hide')
+
+legend('Conformist', 'Anticonformist','Location','northeast')
 title("\eta = -80, \sigma = 0")
 set(gca,'fontname','Palatino','fontsize',fs,'xtick',[],'ytick',[])
 
@@ -206,6 +207,7 @@ P = plot(G,'Layout','force','NodeLabel',{},'EdgeColor','#000000', ...
     'NodeColor','#77AC30','MarkerSize',7);
 box on;
 highlight(P,find(TD(:,2)==1),'NodeColor','#D95319')
-legend('Conformist', 'Rebel','Location','northeast')
+legend('hide')
+
 title("\eta = 8, \sigma = 18.68")
 set(gca,'fontname','Palatino','fontsize',fs,'xtick',[],'ytick',[])
