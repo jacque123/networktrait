@@ -11,4 +11,4 @@ Pengyu Liu, Jie Jian, Effects of network topology and trait distribution on coll
 General functions used in the experiments are in the folder *functions*. Please see more detail in each file in the folder.
 Code and data for generating each figure is contained in the corresponding folder.
 
-- The folder *fig1* contains the code **fig1.m** and data that generate all panels of Figure 1.
+- The folder *fig1* contains the code and data that generate all panels of Figure 1. Please run **fig1.m**.
