@@ -129,7 +129,7 @@ errorbar(linspace(0,1,101),P2,ER2l,ER2u,'.','MarkerSize',15)
 ylim([0.79,1.01])
 grid on
 box on
-legend('Number of rebels', 'Attributing parameter', 'Location','southeast')
+legend('Number of anticonformists', 'Attributing parameter', 'Location','southeast')
 xlabel("Scaled parameter")
 ylabel("Proportion")
 title("Trait distribution parameters")
