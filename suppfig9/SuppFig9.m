@@ -35,7 +35,7 @@ ylim([-0.1,1.1])
 grid on
 box on
 legend('hide')
-xlabel("Number of rebels (r)")
+xlabel("Number of anticonformists (r)")
 ylabel("Probability")
 title("n = 50, \mu = 8, \eta = 0, \alpha = 0.8")
 set(gca,'fontname','Palatino','fontsize',fs)
@@ -73,7 +73,7 @@ ylim([-0.1,1.1])
 grid on
 box on
 legend('hide')
-xlabel("Number of rebels (r)")
+xlabel("Number of anticonformists (r)")
 ylabel("Probability")
 title("n = 150, \mu = 8, \eta = 0, \alpha = 0.8")
 set(gca,'fontname','Palatino','fontsize',fs)
@@ -110,7 +110,7 @@ ylim([-0.1,1.1])
 grid on
 box on
 legend('hide')
-xlabel("Number of rebels (r)")
+xlabel("Number of anticonformists (r)")
 ylabel("Probability")
 title("n = 100, \mu = 4, \eta = 0, \alpha = 0.8")
 set(gca,'fontname','Palatino','fontsize',fs)
@@ -147,7 +147,7 @@ ylim([-0.1,1.1])
 grid on
 box on
 legend('hide')
-xlabel("Number of rebels (r)")
+xlabel("Number of anticonformists (r)")
 ylabel("Probability")
 title("n = 100, \mu = 12, \eta = 0, \alpha = 0.8")
 set(gca,'fontname','Palatino','fontsize',fs)
@@ -187,7 +187,7 @@ ylim([-0.1,1.1])
 grid on
 box on
 legend('hide')
-xlabel("Number of rebels (r)")
+xlabel("Number of anticonformists (r)")
 ylabel("Probability")
 title("n = 100, \mu = 8, \eta = 0, \alpha = 0.6")
 set(gca,'fontname','Palatino','fontsize',fs)
@@ -224,7 +224,7 @@ ylim([-0.1,1.1])
 grid on
 box on
 legend("Predictable","\nablaP > 1","\nablaP = 0","location","southwest")
-xlabel("Number of rebels (r)")
+xlabel("Number of anticonformists (r)")
 ylabel("Probability")
 title("n = 100, \mu = 8, \eta = 0, \alpha = 1.0")
 set(gca,'fontname','Palatino','fontsize',fs)
