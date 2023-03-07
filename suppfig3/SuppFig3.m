@@ -331,7 +331,7 @@ yL=ylim;
 legend('r = 50', 'r = 30', 'r = 70', 'Predictable','Incorrect', 'Location','northeast')
 xlabel("Attributing parameter (\alpha)")
 ylabel("Mixing parameter (\chi)")
-title("Number of rebels (r)")
+title("Number of anticonformists (r)")
 set(gca,'fontname','Palatino','fontsize',fs)
 
 
