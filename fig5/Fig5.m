@@ -35,7 +35,7 @@ ylim([-0.1,1.1])
 grid on
 box on
 legend('hide')
-xlabel("Number of rebels (r)")
+xlabel("Number of anticonformists (r)")
 ylabel("Probability")
 title("Real social network: \alpha = 0.8")
 set(gca,'fontname','Palatino','fontsize',fs)
@@ -109,7 +109,7 @@ ylim([-0.1,1.1])
 grid on
 box on
 legend('hide')
-xlabel("Number of rebels (r)")
+xlabel("Number of anticonformists (r)")
 ylabel("Probability")
 title("Real social network: \alpha = 1")
 set(gca,'fontname','Palatino','fontsize',fs)
@@ -166,7 +166,7 @@ P = plot(G,'Layout','force','NodeLabel',{},'EdgeColor','#000000', ...
     'NodeColor','#77AC30','MarkerSize',3);
 box on;
 highlight(P,find(TD(:,2)==1),'NodeColor','#D95319')
-legend('Conformist', 'Rebel','Location','northeast')
+legend('Conformist', 'Anticonformist','Location','northeast')
 title("Real social network: r = 956, \alpha = 1")
 set(gca,'fontname','Palatino','fontsize',fs,'xtick',[],'ytick',[])
 
@@ -211,5 +211,26 @@ xlabel("Step")
 ylabel("Cumulative choice")
 set(gca,'fontname','Palatino','fontsize',fs)
 
+%%
+
+Colors = lines(7); %load colors
+fs = 16; %set font size
 
 
+figure('Position', [0 1000 1000 2000])
+
+load('Fig5efg.mat')
+
+Deg = degree(G);
+
+subplot(2,2,1) %plot social network with trait distribution
+
+histogram(Deg,'BinEdges',linspace(0,780,40))
+grid on
+box on
+xlim([-50,850])
+title("Degree distribution")
+xlabel("Degree")
+ylabel("Number of nodes")
+set(gca,'fontname','Palatino','fontsize',fs)
+set(gca, 'YScale', 'log')
