@@ -16,3 +16,5 @@ Code and data for generating each figure is contained in the corresponding folde
 - The folder *fig3* contains the code and data that generate all panels of Figure 3. Please run the file **fig3.m**.
 - The folder *fig4* contains the code and data that generate all panels of Figure 4. Please run the file **fig4.m**.
 - The folder *fig5* contains the code and data that generate all panels of Figure 4. Please run the file **fig5.m**.
+
+For supplementary figures, please run the file 
