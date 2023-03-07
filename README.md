@@ -17,4 +17,4 @@ Code and data for generating each figure is contained in the corresponding folde
 - The folder *fig4* contains the code and data that generate all panels of Figure 4. Please run the file **Fig4.m**.
 - The folder *fig5* contains the code and data that generate all panels of Figure 4. Please run the file **Fig5.m**.
 
-For supplementary figures, please run the file **SuppFigX.m** in the folder *sfigX* to generate all panels of Supplementary Figure X in the supplementary material of the manuscript. 
+For supplementary figures, please run the file **SuppFigX.m** in the folder *suppfigX* to generate all panels of Supplementary Figure X in the supplementary material of the manuscript. 
