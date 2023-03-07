@@ -14,7 +14,7 @@ IC = -ones(n,1); %set initial choices
 
 [G1,A1] = toriclattice(m,8); %generate a social network
 
-r = 50; %number of rebels
+r = 50; %number of anticonformists
 TD1 = [(1:n)',[ones(r,1);zeros(n-r,1)]];
 TD2 = [(1:n)',repmat([1;0],r,1)];
 
@@ -121,7 +121,7 @@ P = plot(G3,'Layout','force','NodeLabel',{},'EdgeColor','#000000','NodeColor','#
 highlight(P,find(TD4(:,2)==1),'NodeColor','#D95319')
 box on
 title("Social network and trait distribution")
-legend('Conformist', 'Rebel','Location','northeast')
+legend('Conformist', 'Anticonformist','Location','northeast')
 set(gca,'fontname','Palatino','fontsize',fs,'xtick',[],'ytick',[]) 
 
 
